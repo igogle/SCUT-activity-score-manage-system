@@ -5,7 +5,7 @@ function loginf()
 	/*alert(test1.options[test1.selectedIndex].value);*/
 	if(test1.options[test1.selectedIndex].value=="student")
 		{
-			window.location.href="./index.html";
+			window.location.href="./index_student.html";
 			
 		}
 	else if(test1.options[test1.selectedIndex].value=="worker")
@@ -19,7 +19,7 @@ function loginf()
 
 function indexf()
 {
-	window.location.href="./index.html";
+	window.location.href="./index_student.html";
 }
 
 function scoref()
