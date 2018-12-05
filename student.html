@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>华南理工大学院级活动加分统计系统</title>
+	<link rel="stylesheet" type="text/css" href="css/content_student.css" />
+	<script src="json/system.js"></script>
+</head>
+	
+<body>
+	<div class="background1">
+		<img id="bgpicture" class="bgpicture" src="images\index\u1.png" alt="bgpicture">
+		<div id="bghead" class="bghead">院级活动加分统计系统</div>
+		<div id="bgtext" class="bgtext1">用户名:</div>
+		<div id="bgtext" class="bgtext2">叶苏航</div>
+		<div id="bgtext" class="bgtext3">身份:</div>
+		<div id="bgtext" class="bgtext4">管理员</div>
+		<a href="./login.html" class="bgtext5">退出</a>
+	</div>
+	<div class="line">
+		<button type="button" onClick="indexf()" class="button1">首页</button>
+		<button type="button" onClick="scoref()" class="button1">个人加分统计</button>
+		<button type="button" onClick="activityf()" class="button1">活动列表</button>
+		<button type="button" onClick="studentf()" class="button1">个人信息修改</button>
+	</div>
+	<div class="information">
+		<!--<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>姓名</th>
+  				</tr>		
+		</table>-->
+		<div class="box1">
+				<div class="boxtext">姓名</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">性别</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="imgbox">
+				<div class="imgtext">照片</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">年级</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">班级</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">学院</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">专业方向</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">学号</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">民族</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">籍贯</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">联系方式</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">宿舍号</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext">政治面貌</div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box1">
+				<div class="boxtext"></div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2">个人情况介绍</div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2"></div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2">获奖情况</div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2"></div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2">备注</div>
+		</div>
+		<div class="box2">
+				<div class="boxtext2"></div>
+		</div>
+		<!--<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th>性别</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="imgframe">
+ 				<tr>
+    				<th>照片</th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>学院</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th>专业方向</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>学号</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th>民族</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>籍贯</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th>联系方式</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>宿舍号</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th>政治面貌</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<div class="box1"></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe1">
+ 				<tr> 
+    				<th></th>
+  				</tr>		
+		</table>
+				<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>-->
+		
+		
+		<!--<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>个人情况介绍</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>获奖情况</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>备注</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th></th>
+  				</tr>		
+		</table>-->
+	</div>
+	
+
+</body>
+</html>

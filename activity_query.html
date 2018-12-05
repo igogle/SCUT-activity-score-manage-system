@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>华南理工大学院级活动加分统计系统</title>
+	<link rel="stylesheet" type="text/css" href="css/content_activity_query.css" />
+	<script src="json/system.js"></script>
+
+</head>
+	
+<body>
+	<div class="background1">
+		<img id="bgpicture" class="bgpicture" src="images\index\u1.png" alt="bgpicture">
+		<div id="bghead" class="bghead">院级活动加分统计系统</div>
+		<div id="bgtext" class="bgtext1">部门:</div>
+		<div id="bgtext" class="bgtext2">体育部</div>
+		<div id="bgtext" class="bgtext3">身份:</div>
+		<div id="bgtext" class="bgtext4">团学部门</div>
+		<a href="./login.html" class="bgtext5">退出</a>
+	</div>
+	<div class="line">
+		<button type="button" onClick="index_deptf()" class="button1">首页</button>
+		<button type="button" onClick="activity_uploadf()" class="button1">活动上传</button>
+		<button type="button" onClick="activity_queryf()" class="button1">活动查询</button>
+		<button type="button" onClick="message_changef()" class="button1">部门信息修改</button>
+	</div>
+	
+	<div class="information">
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>部门历年活动查询</th>
+  				</tr>		
+		</table>
+	</div>
+	<div class="information2">
+		<div class="test">
+			<div class="title">年份</div>
+			<select class="selectterm">
+  				<option value ="student">学生</option>
+  				<option value ="worker">团学工作人员</option>
+  				<option value="system_manager">系统管理员</option>
+			</select>
+		</div >
+		<div class="test">
+			<div class="title">学期</div>	
+			<select class="selectterm">
+  				<option value ="student">学生</option>
+  				<option value ="worker">团学工作人员</option>
+  				<option value="system_manager">系统管理员</option>
+			</select>
+		</div>
+	</div>
+	
+	<div class="information3">
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>活动名称</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>上传日期</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>活动详情</th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>软件学院院运会</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>2018.10.29</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>点击此处查看活动详情</th>
+  				</tr>		
+		</table>
+		
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>软件学院迎新杯篮球赛</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>2018.10~2018.11</th>
+  				</tr>		
+		</table>
+		<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>具体加分工作</th>
+  				</tr>		
+		</table>
+	</div>
+</body>
+</html>

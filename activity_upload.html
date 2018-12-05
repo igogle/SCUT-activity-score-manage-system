@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>华南理工大学院级活动加分统计系统</title>
+	<link rel="stylesheet" type="text/css" href="css/content_activity_upload.css" />
+	<script src="json/system.js"></script>
+
+</head>
+	
+<body>
+	<div class="background1">
+		<img id="bgpicture" class="bgpicture" src="images\index\u1.png" alt="bgpicture">
+		<div id="bghead" class="bghead">院级活动加分统计系统</div>
+		<div id="bgtext" class="bgtext1">部门:</div>
+		<div id="bgtext" class="bgtext2">体育部</div>
+		<div id="bgtext" class="bgtext3">身份:</div>
+		<div id="bgtext" class="bgtext4">团学部门</div>
+		<a href="./login.html" class="bgtext5">退出</a>
+	</div>
+	<div class="line">
+		<button type="button" onClick="index_deptf()" class="button1">首页</button>
+		<button type="button" onClick="activity_uploadf()" class="button1">活动上传</button>
+		<button type="button" onClick="activity_queryf()" class="button1">活动查询</button>
+		<button type="button" onClick="message_changef()" class="button1">部门信息修改</button>
+	</div>
+	
+	<div class="information">
+		<table frame="box" class="tableframe1">
+ 				<tr>
+    				<th>活动上传信息填写</th>
+  				</tr>		
+		</table>
+<!--		<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>活动名称</th>
+  				</tr>		
+		</table>-->
+		<div class="box1">
+			<div class="tabletext">活动名称</div>
+		</div>
+		<div class="box2">
+    			<input class="input1" type="text" value=""/>	
+		</div>
+		
+		<!--<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>具体加分工作</th>
+  				</tr>		
+		</table>-->
+		<div class="box1">
+			<div class="tabletext">具体加分工作</div>
+		</div>
+		<div class="box2">
+    			<input class="input1" type="text" value=""/>	
+		</div>
+		
+		<!--<table frame="box" class="tableframe2">
+ 				<tr>
+    				<th>备注</th>
+  				</tr>		
+		</table>-->
+		<div class="box1">
+			<div class="tabletext">备注</div>
+		</div>
+		<div class="box2">
+    			<input class="input1" type="text" value=""/>	
+		</div>
+		
+		<!--<table frame="box" class="tableframe3">
+ 				<tr>
+    				<th>加分人员信息填写</th>
+  				</tr>		
+		</table>-->
+		<div class="box3">
+			<div class="tabletext2">加分人员信息填写</div>
+		</div>
+		<div class="box4">
+    			<input class="input2" type="text" value=""/>	
+		</div>
+	</div>
+	<div class="test">
+		<button type="button" class="update">上传</button>
+	</div>
+	
+</body>
+</html>
