@@ -13,6 +13,11 @@ function loginf()
 			window.location.href="./index_dept.html";
 			
 		}
+	else if(test1.options[test1.selectedIndex].value=="admin")
+		{
+			window.location.href="./index_admin.html";
+			
+		}
 	/*alert("Hello World!");*/
 }
 
@@ -59,6 +64,5 @@ function message_changef()
 
 function updatef()
 {
-	window.location.href="./message_change2.html";
+	window.location.href="./student2.html";
 }
-

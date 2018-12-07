@@ -1,7 +1,4 @@
-*{
-    padding:0px;
-    margin:0;
-}
+
 
 .background1{
 	margin-left: 25%;
@@ -138,7 +135,7 @@
 .information{
 	margin-left: 25%;
 	width: 864px;
-	height: 700px;
+	height: 745px;
 	position: relative;
 	text-align:left;
 	/*border-style:solid;*/
@@ -174,6 +171,34 @@
 	float: left;
     font-style:normal;
 	text-align:center;
+}
+
+.input1{
+	border-width:1px;
+	position:relative;
+	left: 7px;
+	top: 7px;
+    width:145px;
+    height:20px;
+	font-size :13px;
+	float: left;
+	font-style:normal;
+	border-style:solid;
+	/*text-align:center;*/
+}
+
+.input2{
+	border-width:1px;
+	position:relative;
+	left: 15px;
+	top: 15px;
+    width: 390px;
+    height: 120px;
+	font-size :13px;
+	float: left;
+	font-style:normal;
+	border-style:solid;
+	/*text-align:center;*/
 }
 
 .imgbox{
@@ -222,35 +247,7 @@
 	text-align:center;
 }
 
-/*.imgframe{
-	border-width:1px;
-	position:relative;
-	left:0px;
-	top:0px;
-	width:204px;
-	height: 273px;
-	font-weight:900;
-	font-size :13px;
-	float: right;
-	font-style:normal;
-	text-align:center;
-}*/
 
-
-/*.tableframe2{
-	border-width:1px;
-	margin-bottom: 100px
-    position:relative;
-    left:0px;
-    top:0px;
-    width:432px;
-    height:150px;
-    font-weight:900;
-	font-size :13px;
-	float: left;
-    font-style:normal;
-	text-align:center;
-}*/
 
 .box2{
     border-width: 1px;
@@ -267,4 +264,64 @@
     float: left;
     font-style: normal;
     text-align: center;
+}
+
+.test2{
+	top:40px;
+	margin-left: 25%;
+	width: 864px;
+	height: 45px;
+	position: relative;
+	text-align:center;
+}
+
+.update{
+	text-align:center;
+	position: relative;
+	/*left: 350px;
+	top: 290px;*/
+	width:140px;
+	height:25px;
+	background:inherit;
+	background-color:rgba(204, 204, 204, 1);
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(121, 121, 121, 1);
+	border-radius:5px;
+	cursor: pointer;
+}
+
+.save{
+	text-align:center;
+	position: relative;
+	right: 50px;
+	/*top: 290px;*/
+	width:140px;
+	height:25px;
+	background:inherit;
+	background-color:rgba(204, 204, 204, 1);
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(121, 121, 121, 1);
+	border-radius:5px;
+	cursor: pointer;
+}
+
+.cancel{
+	text-align:center;
+	position: relative;
+	left: 50px;
+	/*top: 290px;*/
+	width:140px;
+	height:25px;
+	background:inherit;
+	background-color:rgba(204, 204, 204, 1);
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:rgba(121, 121, 121, 1);
+	border-radius:5px;
+	cursor: pointer;
 }

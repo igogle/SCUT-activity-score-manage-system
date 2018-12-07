@@ -216,7 +216,7 @@
 	left:0px;
 	top:0px;
 	width:214px;
-	height: 219px;
+	height:150px;
 	/*font-weight:900;*/
 	font-size :13px;
 	float: left;
@@ -236,7 +236,7 @@
 	font-size :13px;
 	float: left;
 	font-style:normal;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 .input1{
@@ -260,7 +260,7 @@
 	left:0px;
 	top:0px;
 	width:646px;
-	height: 219px;
+	height: 150px;
 	/*font-weight:900;*/
 	font-size :13px;
 	float: left;
@@ -312,7 +312,7 @@
 	left: 50px;
 	top: 10px;
 	width:561px;
-	height: 192px;
+	height: 120px;
 	font-size :13px;
 	float: left;
 	font-style:normal;
@@ -339,4 +339,18 @@
 
 .test{
 	text-align:center;
+}
+
+.selectob{
+	position: relative;
+	left: 50px;
+	top:13px;
+	width:138px;
+	height:27px;
+	font-family:'Arial Normal', 'Arial';
+	font-weight:400;
+	font-style:normal;
+	font-size:15px;
+	text-decoration:none;
+	color:#000000;
 }
