@@ -66,3 +66,8 @@ function updatef()
 {
 	window.location.href="./student2.html";
 }
+
+function updatem() //声明标识符
+{
+alert("上传成功"); //弹出对话框
+}

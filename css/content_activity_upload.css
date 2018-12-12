@@ -135,21 +135,12 @@
 	cursor: pointer;
 }
 
-.information{
-	margin-left: 25%;
-	width: 864px;
-	/*height: 392.6px;*/
-	position: relative;
-	text-align:left;
-	/*border-style:solid;*/
-	/*border-radius:10px;*/
-	/*border-width:1px;*/
-}
+
 
 .information{
 	margin-left: 25%;
 	width: 864px;
-	height: 463px;
+	height: 380px;
 	position: relative;
 	text-align:left;
 /*	border-style:solid;*/
